@@ -11,45 +11,51 @@ body{
     background-size: cover;
   
 }
-h2{
-   
-  text-align: center;
-  line-height: 600px;
-}
-h3{
-  font-size: 50px;
 
-}
 *{
   font-family: sans-serif;
-
 }
 
-
-.Mintro{
-width: 100%;
-height: 100%;
-background-image: url("../image/background.jpg");
-
+.form-group{
+  padding: 5px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 0px 0px 10px 10px;
+  border-color: #f26700
 }
+
 
 .title{
 color: white;
 width: 100%;
 height: 600px;
 margin: 0 auto;
-align-content: center;
+
 }
 
+.solid{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 700px;
+  background: darkred;
+}
+.table{
+  width: 100%;
+  height: 100%;
+}
+td{
+  width: 25%;
+}
 .form{
-width: 200px;
+width: 75%;
 height: 700px;
 margin-left: auto;
 margin-right: auto;
 }
 .header{
-  border-radius: 5px;
-  width: 200px;
+  border-radius:10px 10px 0px 0px;
+  width: auto;
   height: 50px;
   background-color:  #f26700 ;
   font-family: sans-serif;
@@ -57,9 +63,7 @@ margin-right: auto;
   text-align: center;
   padding: 10px;
 }
-#form-group{
-  line-height: 50px;
-}
+
 
 #conter{
 height: 100vh;
